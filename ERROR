@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	float n,m ; 
+	printf("Enter the value of x and x' ") ; 
+	scanf("%f%f",&n,&m) ; 
+	
+	float Ea = fabs(n-m) ; 
+	float Er = fabs((n-m)/n) ; 
+	float Ep = Er*100 ; 
+	
+	printf("The value of Ea is %f\n",Ea) ;
+	printf("The value of Er is %f\n",Er) ;
+	printf("The value of Ep is %f\n",Ep) ; 
+}
