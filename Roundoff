@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	float n ; 
+	printf("Enter the value of x ") ; 
+	scanf("%f",&n) ; 
+	
+    printf("Roundoff value %5.4f\n",n) ; 
+    printf("Tercated value %f",n) ; 
+}
